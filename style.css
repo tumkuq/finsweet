@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+display: flex;
+justify-content: space-between;
+}
+
+.headeright{
+display: flex;
+width: 50%;
+justify-content: space-betweens;
+
+   
+}
+header ul{
+display: flex;
+justify-content: space-between;
+width: 70%;
+list-style: none;
+
+}
+section{
+   background: url(./img/men-service-face.jpeg);
+   background-repeat: no repeat;
+   background-size: cover;
+   height: 40vh;
+   background-position: center;
+   text-align: center;
+   padding: 100px;
+   padding-right: 100px;
+
+}
+h2{
+    
+}
+
+
