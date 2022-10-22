@@ -1,43 +1,291 @@
-* {
-    box-sizing: border-box;
+*
+{
+    box-sizing:border-box;
 }
 .container{
-    width: 100%;
+    width:100%;
     max-width: 1280px;
-    margin: auto;
+    margin:auto;
+    font-family: 'Poppins'
 }
-header{
-display: flex;
-justify-content: space-between;
+body{
+    margin:0;
 }
-
+.Home{
+    display:flex;
+    justify-content:space-between;
+}
 .headeright{
-display: flex;
-width: 50%;
-justify-content: space-betweens;
-
-   
+    display:flex;
+    width:50%;
+    justify-content: space-between;
 }
-header ul{
-display: flex;
-justify-content: space-between;
-width: 70%;
-list-style: none;
-
+.headerli ul {
+    list-style:none; 
+    display:flex;
+    justify-content: space-evenly;
+    font-size:16px;
+    font-weight: 600px;
+    line-height: 24px;
 }
-section{
-   background: url(./img/men-service-face.jpeg);
-   background-repeat: no repeat;
-   background-size: cover;
-   height: 40vh;
-   background-position: center;
-   text-align: center;
-   padding: 100px;
-   padding-right: 100px;
-
+.headerli {
+    width:80%;
 }
-h2{
+.first-button{
+    width:140px;
+    height:40px;
+    border-radius:50px;
+    background: rgba(245, 138, 7, 0.1);
+    color:rgba(245, 138, 7, 1);
+    cursor: pointer;
+}
+.screen{
+    background: rgba(220, 234, 245, 1);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+
+    
+
+.face{
+    display:flex;
+    flex-wrap:wrap;
     
 }
 
+.face ul li {
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+}
+
+.face p {
+    margin-top: 40px;
+ }
+
+h2{
+    font-size:64px;
+    width:576px;
+    height:144px;
+    margin:0px;
+    margin-top: 87px;
+}
+
+.second-button{
+    display:flex;
+    width:400px;
+    justify-content: space-around;
+
+}
+
+.border{
+    background: #F58A07;
+    width:199px;
+    height:54px;
+    border-radius: 50px;
+   
+}
+.border {
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 30px;
+   cursor: pointer;
+}
+
+
+.card_1{
+    display: flex;
+}
+h4{
+    width:735px;
+    height:112px;
+    font-weight: 600;
+    font-size:48px;
+    line-height:56px;
+    letter-spacing:-0.03em
+}
+.first p {
+    width:735px;
+    font-weight: 700;
+    font-size:18px;
+    margin-top:-57px;
+    line-height: 30px;
+}
+h5{
+    font-size:24px;
+    font-weight:500;
+    margin-top:10px;
+    line-height:25.56px;
+
+}
+.card_1 img{
+    border-radius: 20px;
+    width:399px;
+    height:242px;
+}
+.learn{
+    text-decoration: none;
+    width:90px;
+    height:17px;
+    font-weight: 500;
+    font-size:16px;
+}
+
+
+   
+
+.border-1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #F58A07;
+    border-radius: 50px;
+    width: 199px;
+    height: 54px;
+    margin-left: 50px;
+
+    
+}
+.second{
+    display:flex;
+    justify-content: space-between;
+    width:262px;
+    height:30px;
+    color: #39414980;
+
+}
+.photo{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.face_2{
+   
+    display:flex;
+    flex-wrap:wrap;
+}
+.building{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+   
+}
+h6{
+    font-size:36px;
+    line-height:44px;
+    font-weight: 600;
+    color:#0D1317;
+    display:flex;
+    width:50%;
+}
+.building p {
+    color: #1D3444;
+    font-weight:500;
+    font-size:18px;
+    line-height:30px;
+    width:50%;
+    display:flex;
+    align-items:center;
+    height:220px
+}
+.Invoicing{
+    display:flex;
+    width:100%;
+}
+.invoicing-information{
+    width:401px;
+    height:277px;
+    padding:10px;
+}
+h7{
+    display:flex;
+    width:107px;
+    height:26px;
+    font-size:24px;
+    font-weight: 600;
+    color:rgba(13, 19, 23, 1);
+}
+.experience{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    margin-top:80px;
+}
+h8{
+    font-weight: 600;
+    font-size:48px;
+    line-height:56px;
+    width:400px
+}
+
+
+    
+.red-color {
+    display:flex;
+    color:red;
+    width:70%;
+}
+.black-women{
+    border-radius:10px 10px;
+    position:relative;  
+    height:670px
+}
+.black-womentag{
+    background: #F58A07;
+    width:153px;
+    height:670px;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.star{
+    display: flex;
+    justify-content:space-between ;
+    width: 70%;
+    
+}
+
+.star p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 50px; 
+    
+}
+
+
+.star-client{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.team{
+    display: flex;
+    position: relative;
+
+    
+}
+
+h9{
+    font-weight: 600;
+    font-size:48px;
+    line-height:56px;
+    width:400px
+    
+}
+
+.energy{
+    display: flex;
+    justify-content: space-between;
+}
 
